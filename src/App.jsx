@@ -6,7 +6,7 @@ import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 
 /* ── Set to false when portfolio is ready to launch ── */
-const COMING_SOON = true
+const COMING_SOON = false
 
 export default function App() {
   if (COMING_SOON) return <ComingSoon />
